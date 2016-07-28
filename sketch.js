@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(800, 800);
   smooth();
   ellipseMode(CENTER);
   frameRate(50)
