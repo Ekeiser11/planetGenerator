@@ -14,8 +14,6 @@ function setup() {
  for (var i = 0; i < 3000; i++) { 
   var currentColor = random(colors)
   background(random(colors));
-  stroke(0, 0, 0,40);
-  strokeWeight(2)
 }
 }
 
@@ -29,7 +27,7 @@ function draw() {
   push();
   translate(width/2,height/2);
   rotate(map(sin(0.001*frameCount),-1, 1, 0, TWO_PI));
-  ellipse(0,0,random(300),random(700));
+  ellipse(0,0,random(300),random(800));
   pop();
 
 }
