@@ -22,7 +22,7 @@ function setup() {
 function draw() {
   
   fill(255, 255, 255,1);
-  stroke(0, 153, 153,10);
+  stroke(255, 255, 204,10);
   strokeWeight(2)
   
   
