@@ -5,13 +5,15 @@ function setup() {
   frameRate(50)
   
   var colors = [
-    color(204, 255, 153,80),
-    color(255, 204, 255,40),
+    color(0),
+    color(0, 0, 102,80),
+    color(102, 0, 51,40),
     color(255, 102, 102,70),
-    color(0, 38, 153)
+    color(204, 204, 0),
+    color(0, 0, 153)
   ]
 
- for (var i = 0; i < 3000; i++) { 
+ for (var i = 0; i < 3000; i++) {
   var currentColor = random(colors)
   background(random(colors));
 }
